@@ -1,0 +1,41 @@
+#space {
+  background: #111;
+  height: 100vh;
+}
+
+.drum-board {
+  background-color: #222;
+}
+
+html {
+  font-size: 2rem;
+}
+
+.display {
+  background: linear-gradient(to bottom, #1e5799 0%, #2989d8 48%, #207cca 98%, #7db9e8 98%, #207cca 98%);
+  text-align: center;
+  color: #fff;
+}
+
+p {
+  text-align: center;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #049523;
+  border: none;
+}
+
+.in-btn-down {
+  background-color: #049523;
+}
+
+.fab, .fas {
+  font-size: 24px;
+}
+
+.drum-pad.active {
+  opacity: 0.8;
+  transform: scale(0.97);
+}
